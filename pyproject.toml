@@ -1,0 +1,27 @@
+[project]
+name = "airbnb-value-score"
+version = "0.1.0"
+description = "A data-driven value score for Airbnb listings"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+      "pandas",
+      "numpy",
+      "lightgbm",
+      "scikit-learn",
+      "shap",
+      "matplotlib",
+      "seaborn",
+      "plotly",
+      "jupyter",
+      "ipykernel",
+      "python-dotenv",
+      "pyarrow>=21.0.0",
+]
+
+[dependency-groups]                                                                                                    
+dev = [
+    "ruff",                                                                                                            
+    "pytest",   
+    "pre-commit",
+]

@@ -1,3 +1,10 @@
+# data — never commit raw or processed data
+data/raw/
+data/processed/
+
+# mac
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
